@@ -7,7 +7,10 @@ const Header = () => {
 
                         {/* mi imagen */}
                         <div className="col-md-4">
-                            <img src="https://avatars.githubusercontent.com/u/28915377?s=400&u=7e1a8f79546e00914598558913ce5d04045fd7dc&v=4" alt="" className="img-fluid" />
+                            <img src="https://avatars.githubusercontent.com/u/28915377?s=400&u=7e1a8f79546e00914598558913ce5d04045fd7dc&v=4"
+                                alt=""
+                                className="img-fluid rounded mx-auto d-block"
+                                style={{ width: "200px" }} />
                         </div>
 
                         {/* primera impresión */}

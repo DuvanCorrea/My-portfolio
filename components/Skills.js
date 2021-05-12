@@ -11,8 +11,8 @@ const Skills = () => {
                         <h1>Skills</h1>
                         {skills.map(({ nameSkill, percentage }, i) => {
                             return (
-                                <div className="py-2">
-                                    <Skill key={i} nameSkill={nameSkill} percentage={percentage} />
+                                <div className="py-2" key={i} >
+                                    <Skill nameSkill={nameSkill} percentage={percentage} />
                                 </div>
                             )
                         })}

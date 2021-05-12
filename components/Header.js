@@ -1,3 +1,5 @@
+import { aboutMe } from "../dataProfiles"
+
 const Header = () => {
     return (
         <div className="row">
@@ -7,7 +9,7 @@ const Header = () => {
 
                         {/* mi imagen */}
                         <div className="col-md-4">
-                            <img src="https://avatars.githubusercontent.com/u/28915377?s=400&u=7e1a8f79546e00914598558913ce5d04045fd7dc&v=4"
+                            <img src={aboutMe.imgProfile}
                                 alt=""
                                 className="img-fluid rounded mx-auto d-block"
                                 style={{ width: "200px" }} />
@@ -15,9 +17,9 @@ const Header = () => {
 
                         {/* primera impresión */}
                         <div className="col-md-8">
-                            <h1>Duvan Correa</h1>
-                            <h2>Estudiante de ING Informática</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit velit semper ridiculus, aptent turpis praesent vehicula pretium rhoncus sagittis convallis dignissim erat, nostra arcu nec tristique dis parturient nibh condimentum vivamus.</p>
+                            <h1>{aboutMe.smallName}</h1>
+                            <h3>{aboutMe.actualProfession}</h3>
+                            <p>{aboutMe.smallDescripion}</p>
                         </div>
                     </div>
                 </div>

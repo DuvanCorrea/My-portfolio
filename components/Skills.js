@@ -8,7 +8,7 @@ const Skills = () => {
             <div className="col-md-4">
                 <div className="card bg-ligh">
                     <div className="card-body">
-                        <h1>Skills</h1>
+                        <h3>Skills</h3>
                         {skills.map(({ nameSkill, percentage }, i) => {
                             return (
                                 <div className="py-2" key={i} >

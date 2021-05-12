@@ -16,3 +16,11 @@ export const experiences = [
     { nameExp: "EXPERIENCIA 4", description: "Lorem ipsum dolor sit amet consectetur adipiscing elit, tortor lectus quisque scelerisque dictumst hac, diam ante nostra sodales tristique vestibulum.", time: "2000 - 2010" },
     { nameExp: "EXPERIENCIA 5", description: "Lorem ipsum dolor sit amet consectetur adipiscing elit, tortor lectus quisque scelerisque dictumst hac, diam ante nostra sodales tristique vestibulum.", time: "2000 - 2010" }
 ]
+
+// mis proyectos 
+export const proyects = [
+    { title: "Titulo del proyecto", img: "/images/portfolio1.png", description: "Esta es una descripción del proyecto actual", url: "#" },
+    { title: "Titulo del proyecto", img: "/images/portfolio1.png", description: "Esta es una descripción del proyecto actual", url: "#" },
+    { title: "Titulo del proyecto", img: "/images/portfolio1.png", description: "Esta es una descripción del proyecto actual", url: "#" },
+    { title: "Titulo del proyecto", img: "/images/portfolio1.png", description: "Esta es una descripción del proyecto actual", url: "#" }
+]

@@ -1,4 +1,6 @@
 import Navbar from "./Navbar"
+import Footer from "../components/Footer"
+
 
 const Layout = (props) => (
     <div>
@@ -6,6 +8,7 @@ const Layout = (props) => (
         <main className="container py-4">
             {props.children}
         </main>
+        <Footer />
     </div>
 )
 

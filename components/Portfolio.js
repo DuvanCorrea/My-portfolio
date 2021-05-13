@@ -13,7 +13,7 @@ const Portfolio = () => {
                         <div className="row">
                             {proyects.map(({ title, img, description, url }, i) => {
                                 return (
-                                    <Proyect title={title} img={img} description={description} url={url} />
+                                    <Proyect key={i} title={title} img={img} description={description} url={url} />
                                 )
                             })}
                         </div>

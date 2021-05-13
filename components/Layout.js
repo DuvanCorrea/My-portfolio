@@ -5,7 +5,7 @@ import { useEffect } from "react"
 import { useRouter } from "next/router"
 
 
-const Layout = (props) => {
+const Layout = ({ children, footer = true }) => {
 
     const router = useRouter()
 
@@ -30,9 +30,11 @@ const Layout = (props) => {
         <div>
             <Navbar />
             <main className="container py-4">
-                {props.children}
+                {children}
             </main>
-            <Footer />
+
+            {footer ? <Footer /> : ""}
+
         </div>
     )
 }

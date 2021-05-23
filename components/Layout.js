@@ -11,8 +11,6 @@ const Layout = ({ children, footer = true }) => {
 
     useEffect(() => {
 
-
-
         const handleRouteChange = (url) => {
             nProgress.start();
         }

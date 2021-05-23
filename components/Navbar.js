@@ -27,6 +27,11 @@ const Navbar = () => {
                                 <a className="nav-link">Github</a>
                             </Link>
                         </li>
+                        <li className="nav-item">
+                            <Link href="/proyectos">
+                                <a className="nav-link">Proyectos</a>
+                            </Link>
+                        </li>
                     </ul>
                 </div>
             </div>

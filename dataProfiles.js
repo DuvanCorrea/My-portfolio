@@ -34,11 +34,13 @@ export const proyects = [
         img: "/images/portfolio1.png",
         imgs: [{
             id: 0,
-            route: "/images/portfolio1.png"
+            route: "/images/portfolio1.png",
+            description: "Descripcion de la imagen1"
         },
         {
             id: 1,
-            route: "/images/portfolio1.png"
+            route: "/images/portfolio1.png",
+            description: "Descripcion de la imagen2"
         }],
         technologies: [{ name: "JavaScript" }],
         utilities: [{ utily: "Se puede hacer x cosa" }],

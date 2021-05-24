@@ -39,7 +39,7 @@ const Proyect = () => {
                             <p>{proyect.cmpleteDescription}</p>
                         </div>
                         <div className="row">
-                            <a className="btn btn-info rounded" href={proyect.gitHubProyect}>Ir a proyecto en GitHub</a>
+                            <a className="btn btn-info rounded" href={proyect.gitHubProyect} target="blank">Ir a proyecto en GitHub</a>
                         </div>
                     </div>
                 </div>
@@ -49,28 +49,57 @@ const Proyect = () => {
                 <div className="row mt-5">
                     <div className="col-md-4">
                         <h3>Tecnologías</h3>
+                        <ul>
+
+                            {
+                                proyect.technologies.map(e => {
+                                    return (
+                                        <li className="pt-2">
+                                            <div className="row">
+                                                <div className="col-md-10">
+                                                    {e.name}
+                                                </div>
+                                                <div className="col-md-2">
+                                                    <img src={e.icon} className="img img-fluid" />
+                                                </div>
+                                            </div>
+                                        </li>
+                                    )
+                                })
+                            }
+                        </ul>
                     </div>
-                    <div className="col-md-4">
+                    <div className="col-md-8">
                         <h3>Utilidades</h3>
+                        <ul>
+                            {
+                                proyect.utilities.map(e => {
+                                    return (
+                                        <li>
+                                            <div className="row">
+                                                <p>{e.utily}</p>
+                                            </div>
+                                        </li>
+                                    )
+                                })
+                            }
+                        </ul>
                     </div>
                 </div>
 
                 {/* Imagenes */}
-                <div className="row mt-5">
+                <div className="row mt-5 mb-5">
+                    <h3>Imagenes</h3>
                     {
                         proyect.imgs.map(e => {
                             return (
-                                <div class="col-md-4">
+                                <div class="col-md-6 mt-2">
                                     <img src={e.route} className="img img-fluid rounded" alt={e.id} />
                                 </div>
                             )
                         })
                     }
                 </div>
-
-
-
-
 
             </div>
         </Layout>

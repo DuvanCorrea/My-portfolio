@@ -30,23 +30,45 @@ export const experiences = [
 export const proyects = [
     {
         id: 0,
-        title: "Titulo del proyecto",
-        img: "/images/portfolio1.png",
+        title: "Veterinaria App",
+        img: "/images/proyect-1/1.png",
         imgs: [{
             id: 0,
-            route: "/images/portfolio1.png",
+            route: "/images/proyect-1/1.png",
             description: "Descripcion de la imagen1"
         },
         {
             id: 1,
-            route: "/images/portfolio1.png",
+            route: "/images/proyect-1/2.png",
+            description: "Descripcion de la imagen2"
+        },
+        {
+            id: 1,
+            route: "/images/proyect-1/3.png",
             description: "Descripcion de la imagen2"
         }],
-        technologies: [{ name: "JavaScript" }],
-        utilities: [{ utily: "Se puede hacer x cosa" }],
+        technologies: [
+            { name: "JavaScript", icon: "/images/icons/javascripticon.png" },
+            { name: "HTML", icon: "/images/icons/HTMLicon.png" },
+            { name: "CSS", icon: "/images/icons/CSSicon.png" }
+        ],
+        utilities: [
+            { utily: "Se puede hacer x cosa" },
+            { utily: "Se puede hacer x cosa" }
+        ],
         description: "Esta es una descripción del proyecto actual",
         cmpleteDescription: "Lorem ipsum dolor sit amet consectetur adipiscing elit velit semper ridiculus, aptent turpis praesent vehicula pretium rhoncus sagittis convallis dignissim erat, nostra arcu nec tristique dis parturient nibh condimentum vivamus.Lorem ipsum dolor sit amet consectetur adipiscing elit velit semper ridiculus, aptent turpis praesent vehicula pretium rhoncus sagittis convallis dignissim erat, nostra arcu nec tristique dis parturient nibh condimentum vivamus.Lorem ipsum dolor sit amet consectetur adipiscing elit velit semper ridiculus, aptent turpis praesent vehicula pretium rhoncus sagittis convallis dignissim erat, nostra arcu nec tristique dis parturient nibh condimentum vivamus.",
         url: "/0",
-        gitHubProyect: "#"
+        gitHubProyect: "https://github.com/DuvanCorrea/appVet"
     },
 ]
+
+
+// technologies: [
+//     { name: "JavaScript", icon: "/images/icons/javascripticon.png" },
+//     { name: "NodeJS", icon: "/images/icons/nodeJSicon.png" },
+//     { name: "ReactJS", icon: "/images/icons/reactJSicon.png" },
+//     { name: "HTML", icon: "/images/icons/HTMLicon.png" },
+//     { name: "CSS", icon: "/images/icons/CSSicon.png" }
+
+// ],

@@ -28,8 +28,23 @@ export const experiences = [
 
 // mis proyectos 
 export const proyects = [
-    { title: "Titulo del proyecto", img: "/images/portfolio1.png", description: "Esta es una descripción del proyecto actual", url: "#" },
-    { title: "Titulo del proyecto", img: "/images/portfolio1.png", description: "Esta es una descripción del proyecto actual", url: "#" },
-    { title: "Titulo del proyecto", img: "/images/portfolio1.png", description: "Esta es una descripción del proyecto actual", url: "#" },
-    { title: "Titulo del proyecto", img: "/images/portfolio1.png", description: "Esta es una descripción del proyecto actual", url: "#" }
+    {
+        id: 0,
+        title: "Titulo del proyecto",
+        img: "/images/portfolio1.png",
+        imgs: [{
+            id: 0,
+            route: "/images/portfolio1.png"
+        },
+        {
+            id: 1,
+            route: "/images/portfolio1.png"
+        }],
+        technologies: [{ name: "JavaScript" }],
+        utilities: [{ utily: "Se puede hacer x cosa" }],
+        description: "Esta es una descripción del proyecto actual",
+        cmpleteDescription: "Lorem ipsum dolor sit amet consectetur adipiscing elit velit semper ridiculus, aptent turpis praesent vehicula pretium rhoncus sagittis convallis dignissim erat, nostra arcu nec tristique dis parturient nibh condimentum vivamus.Lorem ipsum dolor sit amet consectetur adipiscing elit velit semper ridiculus, aptent turpis praesent vehicula pretium rhoncus sagittis convallis dignissim erat, nostra arcu nec tristique dis parturient nibh condimentum vivamus.Lorem ipsum dolor sit amet consectetur adipiscing elit velit semper ridiculus, aptent turpis praesent vehicula pretium rhoncus sagittis convallis dignissim erat, nostra arcu nec tristique dis parturient nibh condimentum vivamus.",
+        url: "/0",
+        gitHubProyect: "#"
+    },
 ]

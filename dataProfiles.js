@@ -43,7 +43,7 @@ export const proyects = [
             description: "Descripcion de la imagen2"
         },
         {
-            id: 1,
+            id: 2,
             route: "/images/proyect-1/3.png",
             description: "Descripcion de la imagen2"
         }],
@@ -53,8 +53,9 @@ export const proyects = [
             { name: "CSS", icon: "/images/icons/CSSicon.png" }
         ],
         utilities: [
-            { utily: "Se puede hacer x cosa" },
-            { utily: "Se puede hacer x cosa" }
+            { utily: "Crear una lista de mascotas con su nombre, tipo de mascota y propietario, tambien podemos crear y eliminar mascotas de esta lista" },
+            { utily: "Crear una lista de profecionales veterinarios con su nombre y apellido, id y pais, tambien podemos crear y eliminar profecionales de esta lista" },
+            { utily: "Crear una lista de propietarios de mascotas con su nombre y apellido, id y pais, tambien podemos crear y eliminar propitarios de esta lista" }
         ],
         description: "Esta es una descripción del proyecto actual",
         cmpleteDescription: "Lorem ipsum dolor sit amet consectetur adipiscing elit velit semper ridiculus, aptent turpis praesent vehicula pretium rhoncus sagittis convallis dignissim erat, nostra arcu nec tristique dis parturient nibh condimentum vivamus.Lorem ipsum dolor sit amet consectetur adipiscing elit velit semper ridiculus, aptent turpis praesent vehicula pretium rhoncus sagittis convallis dignissim erat, nostra arcu nec tristique dis parturient nibh condimentum vivamus.Lorem ipsum dolor sit amet consectetur adipiscing elit velit semper ridiculus, aptent turpis praesent vehicula pretium rhoncus sagittis convallis dignissim erat, nostra arcu nec tristique dis parturient nibh condimentum vivamus.",

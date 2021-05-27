@@ -48,7 +48,7 @@ const Proyect = () => {
 
                 <div className="row mt-5">
                     <div className="col-md-4">
-                        <h3>Tecnologías</h3>
+                        <h3 className="text-center">Tecnologías</h3>
                         <ul>
 
                             {
@@ -70,7 +70,7 @@ const Proyect = () => {
                         </ul>
                     </div>
                     <div className="col-md-8">
-                        <h3>Utilidades</h3>
+                        <h3 className="text-center">Utilidades</h3>
                         <ul>
                             {
                                 proyect.utilities.map(e => {

@@ -248,6 +248,65 @@ export const proyects = [
         url: "proyects/5",
         gitHubProyect: "https://github.com/DuvanCorrea/NodeJS_MongoDB_Mogoose"
     },
+    {
+        id: 7,
+        title: "Servidor de control de ventas",
+        img: "/images/proyect-8/1.png",
+        imgs: [{
+            id: 0,
+            route: "/images/proyect-8/1.png",
+            description: "Descripcion de la imagen1"
+        },
+        {
+            id: 1,
+            route: "/images/proyect-8/2.png",
+            description: "Descripcion de la imagen2"
+        },
+        {
+            id: 2,
+            route: "/images/proyect-8/3.png",
+            description: "Descripcion de la imagen1"
+        },],
+        technologies: [
+            { name: "JavaScript", icon: "/images/icons/javascripticon.png" },
+            { name: "NodeJS", icon: "/images/icons/nodeJSicon.png" },
+            { name: "MySql", icon: "/images/icons/MySQLicon.png" },
+            { name: "ExpressJS", icon: "/images/icons/Expressicon.png" },
+
+        ],
+        utilities: [
+            { utily: "Agregar eliminar y editar productos del inventario." },
+            { utily: "Agregar y eliminar personas de la base de datos." },
+            { utily: "Agregar y eliminar categorías para los productos." },
+            { utily: "Generar Ventas con los productos existentes disminuyendo el stock de cada uno y guardando toda la información en la base de datos." },
+        ],
+        description: "Gestor de ventas para prueba tecnica para el puesto backend junior.",
+        cmpleteDescription: "En definitiva una de los mejores servidores que he hecho en tan corto tiempo (Una noche), este servidor fue hecho para un prueba técnica para el puesto de backend junior, consiste en un pequeño sistema de gestión de productos donde podremos agregar productos categorias y personas al igual que eliminarlos, también podemos generar una venta con los productos y clientes disponibles, solo los que están disponibles, ya que si se intenta generar una venta con productos que no están disponibles el sistema nos dirá que no hay stock suficiente se pueden agregar la cantidad de productos necesarios por cliente y estos serán descontados del stock.\n Este servidor esta conectado a una base de datos MySQL, el script de generacion se encuentra en GitHub.",
+        url: "proyects/7",
+        gitHubProyect: "https://github.com/DuvanCorrea/prueba-tecnica"
+    },
+    {
+        id: 8,
+        title: "Calculadora de media y desviación estándar",
+        img: "/images/proyect-9/1.png",
+        imgs: [{
+            id: 0,
+            route: "/images/proyect-9/1.png",
+            description: "Descripcion de la imagen1"
+        },],
+        technologies: [
+            { name: "JavaScript", icon: "/images/icons/javascripticon.png" },
+            { name: "CSS bootstrap", icon: "/images/icons/CSSBootstrapicon.png" },
+            { name: "HTML", icon: "/images/icons/HTMLicon.png" },
+        ],
+        utilities: [
+            { utily: "Calcular media y desviación estándar de los números que ingresemos." },
+        ],
+        description: "Calcular media y desviacion estandar.",
+        cmpleteDescription: "Una pequeña herramienta hecha para la clase de desarrollo de software la cual nos permite ver la media y desviación estándar de una sucesión de números ingresados.",
+        url: "proyects/8",
+        gitHubProyect: "https://github.com/DuvanCorrea/calcular-media-y-desvicion"
+    },
 ]
 
 
@@ -259,6 +318,6 @@ export const proyects = [
 //     { name: "CSS", icon: "/images/icons/CSSicon.png" },
 //     { name: "CSS bootstrap", icon: "/images/icons/CSSBootstrapicon.png" }
 //     { name: "Python", icon: "/images/icons/Pythonicon.png" },
-
-
+//     { name: "MySql", icon: "/images/icons/MySQLicon.png" },
+//     { name: "ExpressJS", icon: "/images/icons/Expressicon.png" },
 // ],

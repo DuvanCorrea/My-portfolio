@@ -100,6 +100,50 @@ export const proyects = [
         url: "proyects/1",
         gitHubProyect: "https://github.com/DuvanCorrea/love-me"
     },
+    {
+        id: 2,
+        title: "Generador de pedidos v1",
+        img: "/images/proyect-3/1.png",
+        imgs: [{
+            id: 0,
+            route: "/images/proyect-3/1.png",
+            description: "Descripcion de la imagen1"
+        },
+        {
+            id: 1,
+            route: "/images/proyect-3/2.png",
+            description: "Descripcion de la imagen2"
+        },
+        {
+            id: 2,
+            route: "/images/proyect-3/3.png",
+            description: "Descripcion de la imagen2"
+        },
+        {
+            id: 3,
+            route: "/images/proyect-3/4.png",
+            description: "Descripcion de la imagen2"
+        },
+        {
+            id: 4,
+            route: "/images/proyect-3/5.png",
+        }],
+        technologies: [
+            { name: "JavaScript", icon: "/images/icons/javascripticon.png" },
+            { name: "HTML", icon: "/images/icons/HTMLicon.png" },
+            { name: "CSS bootstrap", icon: "/images/icons/CSSBootstrapicon.png" }
+        ],
+        utilities: [
+            { utily: "Generar pedido de una prenda en específico, con su talla, género, descripción y adjuntar imagen de la prenda." },
+            { utily: "Editar prenda agregada" },
+            { utily: "Eliminar prenda agregada" },
+            { utily: "Generar un archivo PDF con las prendas agregadas" },
+        ],
+        description: "Generador de pedidos para empresa de confeccion",
+        cmpleteDescription: "Este es el prototipo de un generador de pedidos para una empresa de confección de prendas de vestir, se puede encontrar los campos mínimos que se necesitan a la hora de generar un pedido, también se podrá gestionar esta lista editando o eliminando las prendas, por último se genera un PDF con los pedidos para su posterior elaboración (La empresa en la que me inspire les da los pedidos a los operarios en hojas impresas, por ese motivo el sistema funciona de esta forma).",
+        url: "proyects/2",
+        gitHubProyect: "https://github.com/DuvanCorrea/Generar-Pedido-PDF-v1"
+    },
 ]
 
 
@@ -108,6 +152,7 @@ export const proyects = [
 //     { name: "NodeJS", icon: "/images/icons/nodeJSicon.png" },
 //     { name: "ReactJS", icon: "/images/icons/reactJSicon.png" },
 //     { name: "HTML", icon: "/images/icons/HTMLicon.png" },
-//     { name: "CSS", icon: "/images/icons/CSSicon.png" }
+//     { name: "CSS", icon: "/images/icons/CSSicon.png" },
+//     { name: "CSS bootstrap", icon: "/images/icons/CSSBootstrapicon.png" }
 
 // ],

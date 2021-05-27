@@ -143,6 +143,43 @@ export const proyects = [
         cmpleteDescription: "Este es el prototipo de un generador de pedidos para una empresa de confección de prendas de vestir, se puede encontrar los campos mínimos que se necesitan a la hora de generar un pedido, también se podrá gestionar esta lista editando o eliminando las prendas, por último se genera un PDF con los pedidos para su posterior elaboración (La empresa en la que me inspire les da los pedidos a los operarios en hojas impresas, por ese motivo el sistema funciona de esta forma).",
         url: "proyects/2",
         gitHubProyect: "https://github.com/DuvanCorrea/Generar-Pedido-PDF-v1"
+    }, 
+    {
+        id: 3,
+        title: "Caja de devolución de dinero",
+        img: "/images/proyect-4/1.png",
+        imgs: [{
+            id: 0,
+            route: "/images/proyect-4/1.png",
+            description: "Descripcion de la imagen1"
+        },
+        {
+            id: 1,
+            route: "/images/proyect-4/2.png",
+            description: "Descripcion de la imagen2"
+        },
+        {
+            id: 2,
+            route: "/images/proyect-4/3.png",
+            description: "Descripcion de la imagen2"
+        },
+        {
+            id: 3,
+            route: "/images/proyect-4/4.png",
+            description: "Descripcion de la imagen2"
+        }],
+        technologies: [
+            { name: "Python", icon: "/images/icons/Pythonicon.png" },
+        ],
+        utilities: [
+            { utily: "Administra la cantidad de billetes que se tienen en caja." },
+            { utily: "Actualizar la cantidad de billetes en caja." },
+            { utily: "Calcular cuantos billetes y de que denominación son necesarios para devolver dinero." },
+        ],
+        description: "Gertor de devolucion de dinero por denominacion de billetes",
+        cmpleteDescription: "Este es una pequeña herramienta que nos permite gestionar la cantidad de billetes por denominación que tenemos en la caja registradora, también nos calcula con que denominación de billetes debemos hacer la respectiva devolución de dinero necesaria, está hecha en COP y fue echo para un examen de algoritmos.",
+        url: "proyects/3",
+        gitHubProyect: "https://github.com/DuvanCorrea/Caja-de-devolucion-de-dinero"
     },
 ]
 
@@ -154,5 +191,7 @@ export const proyects = [
 //     { name: "HTML", icon: "/images/icons/HTMLicon.png" },
 //     { name: "CSS", icon: "/images/icons/CSSicon.png" },
 //     { name: "CSS bootstrap", icon: "/images/icons/CSSBootstrapicon.png" }
+//     { name: "Python", icon: "/images/icons/Pythonicon.png" },
+
 
 // ],

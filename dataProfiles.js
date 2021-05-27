@@ -307,6 +307,56 @@ export const proyects = [
         url: "proyects/8",
         gitHubProyect: "https://github.com/DuvanCorrea/calcular-media-y-desvicion"
     },
+    {
+        id: 9,
+        title: "Servidor para el proyecto " + `"Gestor de materiales de estudio para docentes"`,
+        img: "/images/proyect-10/1.png",
+        imgs: [{
+            id: 0,
+            route: "/images/proyect-10/1.png",
+            description: "Descripcion de la imagen1"
+        },
+        {
+            id: 1,
+            route: "/images/proyect-10/2.png",
+            description: "Descripcion de la imagen1"
+        },
+        {
+            id: 2,
+            route: "/images/proyect-10/3.png",
+            description: "Descripcion de la imagen1"
+        },
+        {
+            id: 3,
+            route: "/images/proyect-10/4.png",
+            description: "Descripcion de la imagen1"
+        },
+        {
+            id: 4,
+            route: "/images/proyect-10/5.png",
+            description: "Descripcion de la imagen1"
+        },
+        {
+            id: 5,
+            route: "/images/proyect-10/6.png",
+            description: "Descripcion de la imagen1"
+        },],
+        technologies: [
+            { name: "JavaScript", icon: "/images/icons/javascripticon.png" },
+            { name: "NodeJS", icon: "/images/icons/nodeJSicon.png" },
+            { name: "ExpressJS", icon: "/images/icons/Expressicon.png" },
+            { name: "MySql", icon: "/images/icons/MySQLicon.png" },
+        ],
+        utilities: [
+            { utily: "Recibe materiales de estudio en formato PDF creados por los docentes y los almacena en el servidor, aunque la información y ubicación de este PDF se guarda en una base de datos MySql." },
+            { utily: "Recibe reconocimientos de los docentes y los almacena en una base de datos MySQL." },
+            { utily: "Recibe peticiones de solo el PDF por aparte." },
+        ],
+        description: "Servidor para gestionar material de estudio de los docentes.",
+        cmpleteDescription: "Servidor para un proyecto el cual consiste en gestionar el material de estudio que crean los docentes para sus alumnos, el sistema permite crear estos materiales recibiendo unos datos mínimos y un archivo en PDF, el cual guarda en el servidor para su posterior descarga, también permite agregar y eliminar reconocimientos de los profesores. Este sistema se conecta a una base de datos MySql la cual está alojada en un servicio gratuito de internet, pero puede ser modificado para que funcione de forma local, además el script de la base de datos está adjunto en el código de GitHub.",
+        url: "proyects/9",
+        gitHubProyect: "https://github.com/DuvanCorrea/backend-csw1"
+    },
 ]
 
 

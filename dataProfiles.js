@@ -208,6 +208,46 @@ export const proyects = [
         url: "proyects/4",
         gitHubProyect: "https://github.com/DuvanCorrea/curso_leonidas_react_social_media"
     },
+    {
+        id: 5,
+        title: "Servidor proyecto " + `"Veterinaria APP"`,
+        img: "/images/proyect-6/1.png",
+        imgs: [{
+            id: 0,
+            route: "/images/proyect-6/1.png",
+            description: "Descripcion de la imagen1"
+        },
+        {
+            id: 1,
+            route: "/images/proyect-6/2.png",
+            description: "Descripcion de la imagen2"
+        },
+        {
+            id: 0,
+            route: "/images/proyect-6/3.png",
+            description: "Descripcion de la imagen1"
+        },
+        {
+            id: 1,
+            route: "/images/proyect-6/4.png",
+            description: "Descripcion de la imagen2"
+        }],
+        technologies: [
+            { name: "JavaScript", icon: "/images/icons/javascripticon.png" },
+            { name: "NodeJS", icon: "/images/icons/nodeJSicon.png" },
+            { name: "MongoDB", icon: "/images/icons/mongoDBicon.png" },
+
+        ],
+        utilities: [
+            { utily: "Agregar mascotas a una base de datos hecha en MongoDB." },
+            { utily: "Listar las mascotas agragadas a la base de datos MongoDB." },
+            { utily: "Mostrar una sola mascota por id." },
+        ],
+        description: "Servidor para la aplicación Veterinaria app.",
+        cmpleteDescription: "Este es uno de mis primeros servidores funcionales, se logra hacer conexión con una base de datos hecha en MongoDB por medio de una dependencia llamada mongoose, también destaco que el servidor está hecho en NodeJS.",
+        url: "proyects/5",
+        gitHubProyect: "https://github.com/DuvanCorrea/NodeJS_MongoDB_Mogoose"
+    },
 ]
 
 

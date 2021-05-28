@@ -17,7 +17,7 @@ const Proyectos = () => {
             <h1>Proyectos</h1>
             <div className="container">
                 <div className="row">
-                    {proyects.map(({ title, img, description, url }, i) => {
+                    {proyects.reverse().map(({ title, img, description, url }, i) => {
                         return (
                             <MiniProyect key={i} title={title} img={img} description={description} url={url} />
                         )

@@ -357,6 +357,55 @@ export const proyects = [
         url: "proyects/9",
         gitHubProyect: "https://github.com/DuvanCorrea/backend-csw1"
     },
+    {
+        id: 10,
+        title: "Gestor de materiales de estudio para docentes",
+        img: "/images/proyect-11/1.png",
+        imgs: [{
+            id: 0,
+            route: "/images/proyect-11/1.png",
+            description: "Descripcion de la imagen1"
+        },
+        {
+            id: 1,
+            route: "/images/proyect-11/2.png",
+            description: "Descripcion de la imagen1"
+        },
+        {
+            id: 2,
+            route: "/images/proyect-11/3.png",
+            description: "Descripcion de la imagen1"
+        },
+        {
+            id: 3,
+            route: "/images/proyect-11/4.png",
+            description: "Descripcion de la imagen1"
+        },
+        {
+            id: 4,
+            route: "/images/proyect-11/5.png",
+            description: "Descripcion de la imagen1"
+        },
+            ,],
+        technologies: [
+            { name: "JavaScript", icon: "/images/icons/javascripticon.png" },
+            { name: "HTML", icon: "/images/icons/HTMLicon.png" },
+            { name: "CSS", icon: "/images/icons/CSSicon.png" },
+            { name: "Materialize", icon: "/images/icons/materializeicon.png" },
+        ],
+        utilities: [
+            { utily: "Permite a los docentes autentificarse mediante correo y contraseña." },
+            { utily: "Los docentes pueden subir su material de estudio en PDF." },
+            { utily: "Los docentes pueden agregar reconocimientos que les hayan hecho durante su carrera." },
+            { utily: "Los usuarios no necesitan autentificación y pueden descargar el material de estudio en PDF mediante un enlace dinámico." },
+            { utily: "Cada perfil de docente tiene su propio enlace y se puede visualizar sin estar autentificado." },
+            { utily: "Visualizar los archivos PDF sin necesidad de descargarlos." },
+        ],
+        description: "Gestor de material de estudio en formato PDF con links dinámicos.",
+        cmpleteDescription: "Aplicación destinada a docente donde puede subir al servidor el material de estudio en formato PDF, este material puede ser descargado por cualquier usuario por medio de un enlace dinámico, además de tener una previsualización sin descargarlo, el docente también puede agregar reconocimientos y tener un enlace propio a su perfil, el cual puede ser visitado por cualquier usuario que lo posea, por último cabe destacar que se usaron servicios gratuitos para el despliegue, en el caso del servidor se usó Heroku y es allí donde se guardan los documentos, y para la base de datos se usó remotemysql.",
+        url: "proyects/10",
+        gitHubProyect: "https://github.com/DuvanCorrea/frontend-csw1"
+    },
 ]
 
 
@@ -370,4 +419,5 @@ export const proyects = [
 //     { name: "Python", icon: "/images/icons/Pythonicon.png" },
 //     { name: "MySql", icon: "/images/icons/MySQLicon.png" },
 //     { name: "ExpressJS", icon: "/images/icons/Expressicon.png" },
+//     { name: "Materialize", icon: "/images/icons/materializeicon.png" },
 // ],

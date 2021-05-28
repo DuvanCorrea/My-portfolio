@@ -2,28 +2,29 @@
 export const aboutMe = {
     imgProfile: "https://avatars.githubusercontent.com/u/28915377?s=400&u=7e1a8f79546e00914598558913ce5d04045fd7dc&v=4",
     fullName: "Duvan Felipe Correa Ardilaa",
-    smallName: "Duvan Correaaa",
+    smallName: "Duvan Correa",
     actualProfession: "Estudiante de ING Informática",
-    smallDescripion: "Lorem ipsum dolor sit amet consectetur adipiscing elit velit semper ridiculus, aptent turpis praesent vehicula pretium rhoncus sagittis convallis dignissim erat, nostra arcu nec tristique dis parturient nibh condimentum vivamus.",
-    fullDescription: "Lorem ipsum dolor sit amet consectetur adipiscing elit velit semper ridiculus, aptent turpis praesent vehicula pretium rhoncus sagittis convallis dignissim erat, nostra arcu nec tristique dis parturient nibh condimentum vivamus. Lorem ipsum dolor sit amet consectetur adipiscing elit velit semper ridiculus, aptent turpis praesent vehicula pretium rhoncus sagittis convallis dignissim erat, nostra arcu nec tristique dis parturient nibh condimentum vivamus. Lorem ipsum dolor sit amet consectetur adipiscing elit velit semper ridiculus, aptent turpis praesent vehicula pretium rhoncus sagittis convallis dignissim erat, nostra arcu nec tristique dis parturient nibh condimentum vivamus.",
+    smallDescripion: "Actualmente estudiante de ING informática (6to semestre), me he desempeñado en cargos como Asesor de soporte técnico vía telefónica y algunos cargos de servicio al cliente y ventas, con conocimientos básicos e intermedios en lenguajes de programación como java, JavaScrip, Python y conocimientos de HTML y CSS, algunas librerías y frameworks como ReactJS, express.js, NodeJS, en bases de datos como MySQL, PostgreSQL y MongoDB también considero que tengo buena creatividad y pasión por lo que hago ya que muchos de estos conocimientos son empíricos.",
+    fullDescription: "Actualmente estudiante de ING informática (6to semestre), me he desempeñado en cargos como Asesor de soporte técnico vía telefónica y algunos cargos de servicio al cliente y ventas, con conocimientos básicos e intermedios en lenguajes de programación como java, JavaScrip, Python y conocimientos de HTML y CSS, algunas librerías y frameworks como ReactJS, express.js, NodeJS, en bases de datos como MySQL, PostgreSQL y MongoDB también considero que tengo buena creatividad y pasión por lo que hago ya que muchos de estos conocimientos son empíricos.",
 }
 
 // Estas son las skill actuales
 export const skills = [
-    { nameSkill: "skill 1", percentage: "10%" },
-    { nameSkill: "skill 2", percentage: "20%" },
-    { nameSkill: "skill 3", percentage: "30%" },
-    { nameSkill: "skill 4", percentage: "40%" },
-    { nameSkill: "skill 5", percentage: "50%" }
+    { nameSkill: "JavaScrip", percentage: "50%" },
+    { nameSkill: "HTML", percentage: "30%" },
+    { nameSkill: "CSS", percentage: "20%" },
+    { nameSkill: "ReactJS", percentage: "50%" },
+    { nameSkill: "NodeJS", percentage: "50%" },
+    { nameSkill: "Python", percentage: "15%" },
+    { nameSkill: "Java", percentage: "40%" },
+    { nameSkill: "MySQL", percentage: "35%" },
+    { nameSkill: "MongoDB", percentage: "23%" },
+    { nameSkill: "PostgreSQL", percentage: "15%" },
 ]
 
 // Estas son mis experiencias
 export const experiences = [
-    { nameExp: "Desarropllador web 1", description: "Lorem ipsum dolor sit amet consectetur adipiscing elit, tortor lectus quisque scelerisque dictumst hac, diam ante nostra sodales tristique vestibulum.", time: "2000 - 2010" },
-    { nameExp: "Desarropllador web 2", description: "Lorem ipsum dolor sit amet consectetur adipiscing elit, tortor lectus quisque scelerisque dictumst hac, diam ante nostra sodales tristique vestibulum.", time: "2000 - 2010" },
-    { nameExp: "Desarropllador web 3", description: "Lorem ipsum dolor sit amet consectetur adipiscing elit, tortor lectus quisque scelerisque dictumst hac, diam ante nostra sodales tristique vestibulum.", time: "2000 - 2010" },
-    { nameExp: "Desarropllador web 4", description: "Lorem ipsum dolor sit amet consectetur adipiscing elit, tortor lectus quisque scelerisque dictumst hac, diam ante nostra sodales tristique vestibulum.", time: "2000 - 2010" },
-    { nameExp: "Desarropllador web 5", description: "Lorem ipsum dolor sit amet consectetur adipiscing elit, tortor lectus quisque scelerisque dictumst hac, diam ante nostra sodales tristique vestibulum.", time: "2000 - 2010" }
+    { nameExp: "Desarrollo de un sistema posventa", description: "Se me encomendó la creación de un sistema posventa para una ferretería, este se elaboró desde el backend hasta el frontend, se tenía que gestionar el inventario, alertar sobre stock vacíos, generar e imprimir facturas por medio de una impresora de ticket entre muchas otras funciones, fue hecho con ReactJS, NodeJS y MySql. Fue el primer trabajo freelance y lo hicimos entre dos personas en un periodo muy corto de tiempo mientras estábamos en la universidad el resultado fue aceptable y funcional.", time: "2020 - 2020" },
 ]
 
 // mis proyectos 

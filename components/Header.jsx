@@ -12,7 +12,7 @@ const Header = () => {
                             <img src={aboutMe.imgProfile}
                                 alt=""
                                 className="img-fluid rounded mx-auto d-block"
-                                style={{ width: "200px" }} />
+                            />
                         </div>
 
                         {/* primera impresión */}

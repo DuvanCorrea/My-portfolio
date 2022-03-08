@@ -6,7 +6,7 @@ export const aboutMe = {
 	smallName: "Duvan Correa",
 	actualProfession: "Estudiante de ING Informática - Desarrollador de software",
 	smallDescripion:
-		"Apasionado por el desarrollo de sofware y automatizacion de proceso, actualmente estudiante de 8vo semestre pero con los conocimientos necesarios para afrontar cualquier reto y como todos los de mi campo \n ¡Nos encantan solucionar problemas!",
+		"Actualmente con 25 años de esas soy un apasionado por el desarrollo de sofware y automatizacion de proceso, actualmente estudiante de 8vo semestre pero con los conocimientos necesarios para afrontar cualquier reto y como todos los de mi campo \n ¡Nos encantan solucionar problemas!",
 	fullDescription:
 		"Apasionado por el desarrollo de sofware y automatizacion de proceso, actualmente estudiante de 8vo semestre pero con los conocimientos necesarios para afrontar cualquier reto y como todos los de mi campo ¡Nos encantan solucionar problemas!",
 };
